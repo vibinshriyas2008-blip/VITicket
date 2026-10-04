@@ -1,0 +1,25 @@
+{
+  "name": "viticket-server",
+  "version": "1.0.0",
+  "description": "VITicket Backend - Campus Event Ticketing & QR Check-In System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "test:verify": "node tests/verify-all.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.3",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.10.0",
+    "qrcode": "^1.5.4",
+    "uuid": "^11.0.5"
+  }
+}
